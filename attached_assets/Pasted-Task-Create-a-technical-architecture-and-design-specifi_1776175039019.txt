@@ -1,0 +1,35 @@
+Task: Create a technical architecture and design specification for a "dikto" clone of the Elyse Residence (Webflow) website.
+
+1. Visual Identity & Aesthetic:
+
+    Theme: Dark, premium, cinematic luxury real estate.
+
+    Color Palette: Deep Onyx (#0A0A0A), Warm Charcoal (#313945), Gold/Bronze accents for highlights, and Off-White (#F5F5F3) for refined serif typography.
+
+    Typography: High-contrast pairing. Use a bold, elegant Serif for headlines (editorial style) and a clean, wide-tracked Sans-Serif for body and UI elements.
+
+2. Frame-by-Frame Structure:
+
+    Hero Section: Full-viewport immersive 3D/Video background with a fixed navigation bar that transitions from transparent to blurred glass on scroll.
+
+    Philosophy/Story: A staggered grid layout where images and text reveal using "masking" animations (sliding up from 0% height).
+
+    Amenities Grid: A responsive 4-column layout that shifts to a 2-column stack on mobile, using hover-triggered image scaling (1.0 to 1.1x zoom).
+
+3. Animation & Interaction Layer (The "Scroll-Story"):
+
+    Smooth Scroll: Implement a custom smooth-scrollbar or Lenis-based momentum scrolling.
+
+    Parallax & 3D: Background images should move at a slower ratio than foreground text (0.5x speed). 3D elements (like building renders) should rotate slightly based on mouse movement (X/Y axis tilt).
+
+    Image Popup/Lightbox: Custom-designed overlay for image galleries. When an image is clicked, it should expand with a "Spring" easing effect, blurring the background.
+
+    Text Reveal: Every H1 and H2 should use a "Letter-by-Letter" or "Word-by-Word" reveal triggered when scrolled into view.
+
+4. Technical Stack Requirements:
+
+    Platform: Webflow-ready structure using the Client-First naming convention.
+
+    Interactions: Use Webflow Interactions 2.0. Specific trigger: "While page is scrolling" for background transformations and "Scroll into view" for element opacity fades.
+
+    Responsiveness: Fluid scaling using rem units or vw for typography to ensure the editorial layout remains perfect from 4K monitors down to iPhone screens.

@@ -1,0 +1,50 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "RPrZ3ejBip223syFY-nLo"
+uri = "file://artifacts/dikto/public/hero.png"
+type = "image"
+title = "luxury architectural exterior at dusk"
+
+[[generated]]
+id = "7oHzUngMeYaHrp3LwKeDQ"
+uri = "file://artifacts/dikto/public/amenity-pool.png"
+type = "image"
+title = "luxury infinity pool at night"
+
+[[generated]]
+id = "mvmQpQyDejgZo3RS5Ci5I"
+uri = "file://artifacts/dikto/public/amenity-terrace.png"
+type = "image"
+title = "luxury rooftop terrace at twilight"
+
+[[generated]]
+id = "nNB5pK4uORtdALPMVfOri"
+uri = "file://artifacts/dikto/public/amenity-gym.png"
+type = "image"
+title = "luxury private gym with dark walls"
+
+[[generated]]
+id = "5Tmc-5t7CQiBInh7tSqSs"
+uri = "file://artifacts/dikto/public/amenity-lounge.png"
+type = "image"
+title = "luxury concierge lounge lobby"
+
+[[generated]]
+id = "BSGgdEZFoQK4JI5DmmBbi"
+uri = "file://artifacts/dikto/public/gallery-1.png"
+type = "image"
+title = "luxury penthouse living room night"
+
+[[generated]]
+id = "sc02NqiM2104FC_yYg96z"
+uri = "file://artifacts/dikto/public/gallery-2.png"
+type = "image"
+title = "luxury master bedroom with city view"
+
+[[generated]]
+id = "8zqPc3cXvBt_JkvuJsE1u"
+uri = "file://artifacts/dikto/public/gallery-3.png"
+type = "image"
+title = "luxury dark marble bathroom"
